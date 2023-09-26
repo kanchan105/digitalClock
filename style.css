@@ -1,7 +1,7 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: border;
+  box-sizing: border-box;
   font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif;
 body{
   display:flex;
   height: 100vh;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
  }
 
@@ -29,6 +29,7 @@ body{
   justify-content: center;
   align-items:  center;
   flex-direction: column;
+  position: relative;
  }
  .time{
   display:flex;
@@ -50,5 +51,10 @@ body{
   font-size:100px;
   color:rgb(133, 129, 129)
  }
-
+.date{
+  display:flex;
+  font-size: 36px;
+  bottom: 17px;
+  position: absolute;
+}
  
