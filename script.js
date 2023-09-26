@@ -8,7 +8,7 @@ document.querySelector('.minutes').textContent= minutes;
 document.querySelector('.second').textContent= second;
 document.querySelector('.period').textContent= period;
 document.querySelector('.date').textContent= formatDate(today);
-  
+  ////jdcjysdgchsdcvjhsdcjsahcg
 
 }
 const formatTime=(todayDate)=>{
